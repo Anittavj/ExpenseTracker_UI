@@ -1,0 +1,191 @@
+
+/* 
+Right container styles
+.rightcontainer{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  margin-top: 30px;
+  width: 500px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 16px;
+  opacity: 1;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding-left: 40px;
+}
+
+.right {
+    right: 0;
+    background-color: #FFFFFF;
+}
+
+/* H1 styles */
+/* h1{
+height: 4px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+font-size: 35px;
+font-weight: bold;
+letter-spacing: 4px;
+color: #000000;
+opacity: 1;
+}
+
+h2{
+  height: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 30px;
+  letter-spacing: 0px;
+  color: #B5B5B5;
+  opacity: 1;
+  }
+
+.space{
+    padding-top: 35px;
+}
+.space1{
+    padding-left: 147px;
+}
+
+.space2{
+    padding-top: 100px;
+}
+
+/* .area {
+    padding-left: 155px;
+    /* padding-right: 40px; 
+} */
+/* .error-message {
+    background-color: #e90d0d;
+    color: white;
+    padding: 1%;
+    text-align: center;
+  }
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+.container {
+    padding-top: 10px;
+  }
+
+  .signin {
+  
+    text-align: center;
+  }
+
+  .msg {
+
+    background-color: 	#2E8B57;
+    color: white;
+    padding: 1%;
+    text-align: center;
+  }
+  p {text-align: center;} 
+  */
+/* Split login screen to 2 containers */
+.split {
+  height: 100vh;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+}
+
+/*Left container styles */
+img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+    
+  width: 100%;
+
+}
+
+/*.left {
+  background-color: #F35B8C;
+}*/
+
+/* Right container styles */
+.rightcontainer{
+position: absolute;
+top: 50%;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%);
+
+width: 500px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 16px;
+opacity: 1;
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
+padding-left: 40px;
+}
+
+.right {
+  right: 0;
+  background-color: #FFFFFF;
+}
+
+/* H1 styles */
+h1{
+height: 4px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+font-size: 35px;
+font-weight: bold;
+letter-spacing: 4px;
+color: #000000;
+opacity: 1;
+}
+
+h2{
+height: 8px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+padding: 30px;
+letter-spacing: 0px;
+color: #B5B5B5;
+opacity: 1;
+}
+
+.space{
+  padding-top: 43px;
+}
+.space1{
+  padding-left: 147px;
+}
+
+.space2{
+  padding-top: 60px;
+}
+
+.area {
+  padding-left: 150px;
+}
+.error-message {
+  background-color: #e90d0d;
+  color: white;
+  padding: 0.5em;
+  text-align: center;
+}
+
+form {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+}

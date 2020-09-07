@@ -1,0 +1,58 @@
+.expense1{color: #F35B8C;
+ 
+  font-weight: bold;
+  }
+
+.income1{color: #69B5FF;  font-weight: bold;  }
+
+.style{
+
+position: absolute;
+left: 2%;
+right: 52.5%;
+/* right: 53.5%; */
+
+
+}
+
+.card-container {
+  display: flex;
+  padding: 8px; 
+  justify-content: space-between;
+  width:100%;
+  /* margin-top: 0px; */
+
+  }
+/* padding: 10px;  */
+
+
+  .row {
+    width: 180%;
+    margin: 0 auto;
+    z-index: 0;
+  }
+  .block {
+    width: 25%;
+    display: inline-block
+  
+  }
+
+  .card_area_style {   
+
+    top:30%;
+    margin-top: 15%;
+    z-index: 1;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
